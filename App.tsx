@@ -95,7 +95,7 @@ function App() {
   }, 0n);
 
   return (
-    <main className="bg-slate-200 min-h-screen flex items-center justify-center font-sans p-4">
+    <main className="bg-slate-200 w-full h-full flex items-center justify-center font-sans p-4">
       <div className="text-center">
         <header className="mb-8">
           <h1 className="text-5xl font-bold text-slate-800 tracking-tight">

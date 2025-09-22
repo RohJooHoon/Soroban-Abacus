@@ -4,6 +4,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      #root {
+        width: 100vw;
+        height: 100vh;
+      }
+      @media screen and (orientation: portrait) {
+        html {
+          transform: rotate(90deg);
+          transform-origin: left top;
+          width: 100vh;
+          overflow-x: hidden;
+          position: absolute;
+          top: 0;
+          left: 100%;
+        }
+        #root {
+          width: 100vh;
+          height: 100vw;
+        }
+      }
+    </style>
     <title>React Soroban Abacus</title>
     <script src="https://cdn.tailwindcss.com"></script>
   <script type="importmap">
