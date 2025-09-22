@@ -1,0 +1,5 @@
+{
+  "name": "React Soroban Abacus",
+  "description": "An interactive digital abacus (soroban) built with React and Tailwind CSS. Users can click on the beads to move them, simulating the use of a real abacus for calculations.",
+  "requestFramePermissions": []
+}
