@@ -99,10 +99,10 @@ function App() {
       <div className="text-center">
         <header className="mb-8">
           <h1 className="text-5xl font-bold text-slate-800 tracking-tight">
-            Soroban Abacus
+            소로반 주판
           </h1>
           <p className="text-slate-600 mt-2">
-            An interactive digital abacus built with React & Tailwind CSS
+            이동 상태는 자동으로 저장됩니다.
           </p>
         </header>
         <div className="flex items-center justify-center gap-4 mb-8">

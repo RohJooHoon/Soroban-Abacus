@@ -9,10 +9,10 @@ interface BeadProps {
 const Bead: React.FC<BeadProps> = ({ isActive, isUpper, onClick }) => {
   const movementClass = isUpper
     ? isActive
-      ? 'translate-y-9'
+      ? 'translate-y-7'
       : 'translate-y-0'
     : isActive
-    ? '-translate-y-9'
+    ? '-translate-y-7'
     : 'translate-y-0';
 
   return (

@@ -25,7 +25,7 @@ const Abacus: React.FC<AbacusProps> = ({ columns, onUpperBeadClick, onLowerBeadC
         </div>
         
         {/* Beam with reference dots */}
-        <div className="absolute top-[calc(2/7*100%)] left-0 right-0 h-3 bg-[#5f4632] shadow-md flex justify-between items-center px-[calc(50px/2)] z-20">
+        <div className="absolute top-[calc(2/7*100%-5px)] left-0 right-0 h-3 bg-[#5f4632] shadow-md flex justify-between items-center px-[calc(50px/2)] z-20">
           {[...Array(17)].map((_, index) => (
             <div key={index} className="w-0 relative h-full flex items-center">
               {/* Show dots on 3rd, 6th, 9th, 12th, and 15th columns (indices 2, 5, 8, 11, 14) */}
